@@ -54,11 +54,13 @@ while (valorSaque >= 1) {
     valorSaque = valorSaque - 1;
 }
 
-document.write(`<p>O valor do saque é de <strong>${growcoins} GC$</strong>.</p>`)
-document.write(`<p>GC$ 50,00 -> <strong>${nota50} notas.</strong></p> `)
-document.write(`<p>GC$ 10,00 -> <strong>${nota10} notas.</strong></p> `)
-document.write(`<p>GC$ 5,00 -> <strong>${nota5} notas.</strong></p> `)
-document.write(`<p>GC$ 1,00 -> <strong>${nota1} notas.</strong></p> `)
+document.write(`
+<p>O valor do saque é de <strong>${growcoins} GC$</strong>.</p>
+    <li>GC$ 50,00 -> <strong>${nota50} notas.</strong></li>
+    <li>GC$ 10,00 -> <strong>${nota10} notas.</strong></li>
+    <li>GC$ 5,00 -> <strong>${nota5} notas.</strong></li>
+    <li>GC$ 1,00 -> <strong>${nota1} notas.</strong></li>
+    `)
 
 
 
